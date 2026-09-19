@@ -3,11 +3,8 @@ title: "Polymer Electrolyte–Cathode Surface Bonding Suppresses Oxygen Evolutio
 
 authors:
   - me
-  - Daniel Brandell
-  - Bing Joe Hwang
-  - Jyh-Chiang Jiang
 
-date: "2026-06-23"
+date: "2026-01-01"
 
 publication_types:
   - article-journal
@@ -15,8 +12,8 @@ publication_types:
 publication:
   name: "Small"
   short_name: "Small"
-  volume: "65"
-  issue: "35"
+  volume: ""
+  issue: ""
   pages: "e74691"
   publisher: "Wiley"
 
@@ -24,10 +21,8 @@ hugoblox:
   ids:
     doi: "10.1002/smll.74691"
 
-featured: true
+abstract: >
+  Your abstract here.
 
-tags:
-  - Lithium Batteries
-  - Electrolytes
-  - First-Principles Calculations
+featured: false
 ---
