@@ -16,7 +16,7 @@ author_roles:
   Jiří Kaleta:
     - corresponding
 
-date: "2026-10-27"
+date: "2025-10-27"
 
 publication_types:
   - article-journal
