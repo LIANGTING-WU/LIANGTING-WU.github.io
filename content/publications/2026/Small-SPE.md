@@ -2,7 +2,7 @@
 title: "Polymer Electrolyte–Cathode Surface Bonding Suppresses Oxygen Evolution and Cation Mixing in Ni-Rich Layered Oxides for Lithium Batteries"
 
 authors:
-  - Liang-Ting Wu
+  - me
   - Daniel Brandell
   - Bing Joe Hwang
   - Jyh-Chiang Jiang
