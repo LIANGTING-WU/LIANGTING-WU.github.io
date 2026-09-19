@@ -15,8 +15,8 @@ publication_types:
 publication:
   name: "Small"
   short_name: "Small"
-  volume: ""
-  issue: ""
+  volume: "65"
+  issue: "35"
   pages: "e74691"
   publisher: "Wiley"
 
