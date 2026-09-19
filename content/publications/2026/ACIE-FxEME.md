@@ -2,7 +2,7 @@
 title: "Fundamental Understanding of Oxidative Stability in Fluorinated Asymmetric Ethers for Li Batteries"
 
 authors:
-  - Liang-Ting Wu
+  - me
   - Norio Takenaka
   - Jyh-Chiang Jiang
   - Atsuo Yamada
