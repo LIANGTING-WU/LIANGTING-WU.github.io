@@ -1,0 +1,42 @@
+{{- $page := . -}}
+{{- $authors := $page.Params.authors -}}
+{{- $roles := $page.Params.author_roles | default dict -}}
+
+{{- range $index, $author := $authors -}}
+  {{- if gt $index 0 }}, {{ end -}}
+
+  {{- $authorName := $author -}}
+
+  {{- /* Resolve author profile from data/authors/*.yaml */ -}}
+  {{- with site.Data.authors -}}
+    {{- with index . $author -}}
+      {{- with .name.display -}}
+        {{- $authorName = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Author link */ -}}
+  {{- $authorURL := "" -}}
+  {{- with site.Data.authors -}}
+    {{- if index . $author -}}
+      {{- $authorURL = printf "/authors/%s/" $author -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $authorURL -}}
+    <a href="{{ $authorURL }}">{{ $authorName }}</a>
+  {{- else -}}
+    {{ $authorName }}
+  {{- end -}}
+
+  {{- /* Author roles */ -}}
+  {{- with index $roles $author -}}
+    {{- if in . "co-first" -}}
+      <sup>†</sup>
+    {{- end -}}
+    {{- if in . "corresponding" -}}
+      <sup>*</sup>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
