@@ -9,13 +9,13 @@ authors:
 
 author_roles:
   Norio Takenaka:
-    - co-first
+    - corresponding
   Jyh-Chiang Jiang:
     - corresponding
   Atsuo Yamada:
     - corresponding
 
-date: "2026-01-01"
+date: "2026-06-08"
 
 publication_types:
   - article-journal
