@@ -3,11 +3,8 @@ title: "Fundamental Understanding of Oxidative Stability in Fluorinated Asymmetr
 
 authors:
   - me
-  - Norio Takenaka
-  - Jyh-Chiang Jiang
-  - Atsuo Yamada
 
-date: "2026-06-23"
+date: "2026-01-01"
 
 publication_types:
   - article-journal
@@ -24,10 +21,8 @@ hugoblox:
   ids:
     doi: "10.1002/anie.3143736"
 
-featured: true
+abstract: >
+  Your abstract here.
 
-tags:
-  - Lithium Batteries
-  - Electrolytes
-  - First-Principles Calculations
+featured: false
 ---
