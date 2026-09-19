@@ -4,7 +4,7 @@ title: "Capacitance enhancement of anion-pillared soft carbons for the positive 
 authors:
   - Yi-Cheng Liao
   - Wen-Yang Jao
-  - Liang-Ting Wu
+  - me
   - Liang-Chieh Tseng
   - Ting-Yu Wang
   - Chen-Wei Tai
