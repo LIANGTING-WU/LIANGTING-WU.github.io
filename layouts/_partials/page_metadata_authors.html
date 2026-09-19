@@ -16,16 +16,9 @@
     {{- end -}}
   {{- end -}}
 
-  {{- /* Author link */ -}}
-  {{- $authorURL := "" -}}
-  {{- with site.Data.authors -}}
-    {{- if index . $author -}}
-      {{- $authorURL = printf "/authors/%s/" $author -}}
-    {{- end -}}
-  {{- end -}}
-
-  {{- if $authorURL -}}
-    <a href="{{ $authorURL }}">{{ $authorName }}</a>
+  {{- /* Author name: bold + underline for "me" */ -}}
+  {{- if eq $author "me" -}}
+    <strong><u>{{ $authorName }}</u></strong>
   {{- else -}}
     {{ $authorName }}
   {{- end -}}
