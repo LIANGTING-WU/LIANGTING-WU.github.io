@@ -22,7 +22,7 @@ publication:
 
 hugoblox:
   ids:
-    doi: "10.1002/anie.3143736Digital Object Identifier (DOI)"
+    doi: "10.1002/anie.3143736"
 
 featured: true
 
